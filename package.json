@@ -1,0 +1,19 @@
+{
+  "name": "bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Yamboy1/music-bot.git",
+  "author": "Yamboy1 <yamboyd1@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "commando-provider-keyv": "^2.0.1",
+    "discord.js": "discordjs/discord.js",
+    "discord.js-commando": "discordjs/discord.js-commando",
+    "keyv": "^3.1.0",
+    "node-opus": "^0.3.2",
+    "ytdl-core": "^0.29.3"
+  },
+  "scripts": {
+    "start": "node index.js"
+  }
+}
